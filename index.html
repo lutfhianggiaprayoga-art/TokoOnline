@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Toko Online LUTFHI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ========================================
+         NAVBAR
+    ========================================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            TOKO LUTFHI GANTENG
+        </div>
+
+
+        <div class="menu">
+
+            <a href="#">
+                Home
+            </a>
+
+            <a href="#produk">
+                Produk
+            </a>
+
+            <a href="#tentang">
+                Tentang Kami
+            </a>
+
+            <a href="#keranjang">
+                🛒 Keranjang
+                <span id="jumlah-keranjang">0</span>
+            </a>
+
+            <button id="logout">
+                Logout
+            </button>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ========================================
+         HERO
+    ========================================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-label">
+                ✨ KOLEKSI TERBARU 2026
+            </span>
+
+            <h1>
+                Gaya Keren,
+                <span>Harga Bersahabat.</span>
+            </h1>
+
+            <p>
+                Temukan berbagai fashion pilihan
+                untuk melengkapi gaya kamu setiap hari.
+            </p>
+
+            <a href="#produk" class="btn">
+                🛍️ Belanja Sekarang
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         PRODUK
+    ========================================= -->
+
+    <section class="produk" id="produk">
+
+
+        <div class="produk-header">
+
+            <span class="section-label">
+                PRODUK PILIHAN
+            </span>
+
+            <h2>
+                Temukan Produk Favoritmu
+            </h2>
+
+            <p>
+                Pilihan fashion terbaik dengan kualitas
+                dan harga yang bersahabat.
+            </p>
+
+        </div>
+
+
+
+        <!-- FILTER KATEGORI -->
+
+        <div class="kategori">
+
+            <button class="kategori-active">
+                Semua
+            </button>
+
+            <button>
+                👕 Baju
+            </button>
+
+            <button>
+                🧥 Hoodie
+            </button>
+
+            <button>
+                👖 Celana
+            </button>
+
+            <button>
+                👟 Sepatu
+            </button>
+
+        </div>
+
+
+
+        <!-- CONTAINER PRODUK -->
+
+        <div class="produk-container">
+
+
+            <!-- ========================================
+                 PRODUK 1
+            ========================================= -->
+
+            <div class="produk-card">
+
+                <div class="badge">
+                    TERLARIS
+                </div>
+
+
+                <div class="gambar-produk">
+
+                    <img
+                        src="images/Baju.jpeg"
+                        alt="Kaos Basic"
+                    >
+
+                </div>
+
+
+                <div class="produk-info">
+
+                    <div class="rating">
+                        ⭐⭐⭐⭐⭐
+                        <span>
+                            (124)
+                        </span>
+                    </div>
+
+
+                    <h3>
+                        Kaos Basic Premium
+                    </h3>
+
+
+                    <p>
+                        Kaos nyaman dengan bahan
+                        berkualitas untuk sehari-hari.
+                    </p>
+
+
+                    <div class="harga">
+
+                        <span class="harga-lama">
+                            Rp100.000
+                        </span>
+
+                        <h4>
+                            Rp75.000
+                        </h4>
+
+                    </div>
+
+
+                    <button>
+                        🛒 Beli Sekarang
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ========================================
+                 PRODUK 2
+            ========================================= -->
+
+            <div class="produk-card">
+
+                <div class="badge">
+                    POPULER
+                </div>
+
+
+                <div class="gambar-produk">
+
+                    <img
+                        src="images/Hodie.jpeg"
+                        alt="Hoodie Premium"
+                    >
+
+                </div>
+
+
+                <div class="produk-info">
+
+                    <div class="rating">
+                        ⭐⭐⭐⭐⭐
+                        <span>
+                            (98)
+                        </span>
+                    </div>
+
+
+                    <h3>
+                        Hoodie Premium
+                    </h3>
+
+
+                    <p>
+                        Hoodie stylish dengan bahan
+                        lembut dan nyaman digunakan.
+                    </p>
+
+
+                    <div class="harga">
+
+                        <span class="harga-lama">
+                            Rp190.000
+                        </span>
+
+                        <h4>
+                            Rp150.000
+                        </h4>
+
+                    </div>
+
+
+                    <button>
+                        🛒 Beli Sekarang
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ========================================
+                 PRODUK 3
+            ========================================= -->
+
+            <div class="produk-card">
+
+                <div class="badge">
+                    DISKON
+                </div>
+
+
+                <div class="gambar-produk">
+
+                    <img
+                        src="images/Celanaa.png"
+                        alt="Celana Casual"
+                    >
+
+                </div>
+
+
+                <div class="produk-info">
+
+                    <div class="rating">
+                        ⭐⭐⭐⭐☆
+                        <span>
+                            (76)
+                        </span>
+                    </div>
+
+
+                    <h3>
+                        Celana Casual
+                    </h3>
+
+
+                    <p>
+                        Celana casual yang cocok
+                        untuk aktivitas sehari-hari.
+                    </p>
+
+
+                    <div class="harga">
+
+                        <span class="harga-lama">
+                            Rp145.000
+                        </span>
+
+                        <h4>
+                            Rp120.000
+                        </h4>
+
+                    </div>
+
+
+                    <button>
+                        🛒 Beli Sekarang
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ========================================
+                 PRODUK 4
+            ========================================= -->
+
+            <div class="produk-card">
+
+                <div class="badge">
+                    NEW
+                </div>
+
+
+                <div class="gambar-produk">
+
+                    <img
+                        src="images/Sepatu.jpg"
+                        alt="Sepatu Sneakers"
+                    >
+
+                </div>
+
+
+                <div class="produk-info">
+
+                    <div class="rating">
+                        ⭐⭐⭐⭐⭐
+                        <span>
+                            (143)
+                        </span>
+                    </div>
+
+
+                    <h3>
+                        Sneakers Classic
+                    </h3>
+
+
+                    <p>
+                        Sneakers keren dan nyaman
+                        digunakan setiap hari.
+                    </p>
+
+
+                    <div class="harga">
+
+                        <span class="harga-lama">
+                            Rp300.000
+                        </span>
+
+                        <h4>
+                            Rp250.000
+                        </h4>
+
+                    </div>
+
+
+                    <button>
+                        🛒 Beli Sekarang
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         KERANJANG
+    ========================================= -->
+
+    <section class="keranjang" id="keranjang">
+
+        <div class="produk-header keranjang-header">
+
+            <span class="section-label">
+                SHOPPING BERSAMA LUTFHI
+            </span>
+
+            <h2>
+                Keranjang Belanja
+            </h2>
+
+            <p>
+                Periksa kembali produk yang ingin kamu beli.
+            </p>
+
+        </div>
+
+
+        <div id="isi-keranjang">
+
+            <p>
+                Keranjang masih kosong.
+            </p>
+
+        </div>
+
+
+        <div class="total-keranjang">
+
+            <h3>
+
+                Total:
+
+                <span id="total-harga">
+                    Rp0
+                </span>
+
+            </h3>
+
+
+            <button id="checkout">
+                💬 Checkout via WhatsApp
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         TENTANG
+    ========================================= -->
+
+    <section class="tentang" id="tentang">
+
+        <span class="section-label">
+            TENTANG KAMI
+        </span>
+
+        <h2>
+            Kenapa Belanja di Toko Lutfhi?
+        </h2>
+
+        <p>
+            Toko Lutfhi menyediakan berbagai produk
+            fashion berkualitas dengan harga terjangkau.
+            Kami berusaha memberikan pengalaman belanja
+            yang mudah, nyaman, dan menyenangkan.
+        </p>
+
+
+        <div class="keunggulan">
+
+
+            <div class="keunggulan-card">
+
+                <div class="icon">
+                    🚚
+                </div>
+
+                <h3>
+                    Pengiriman Cepat
+                </h3>
+
+                <p>
+                    Pesanan diproses dengan cepat.
+                </p>
+
+            </div>
+
+
+            <div class="keunggulan-card">
+
+                <div class="icon">
+                    💎
+                </div>
+
+                <h3>
+                    Produk Berkualitas
+                </h3>
+
+                <p>
+                    Produk pilihan dengan kualitas terbaik.
+                </p>
+
+            </div>
+
+
+            <div class="keunggulan-card">
+
+                <div class="icon">
+                    💰
+                </div>
+
+                <h3>
+                    Harga Terjangkau
+                </h3>
+
+                <p>
+                    Harga bersahabat untuk semua kalangan.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            TOKO LUTFHI
+        </div>
+
+        <p>
+            Fashion pilihan untuk gaya kamu.
+        </p>
+
+        <p class="copyright">
+            © 2026 Toko Lutfhi. Semua Hak Dilindungi.
+        </p>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
